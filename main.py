@@ -43,12 +43,11 @@ elif spy_exist.upper()=='N':#condition statement
                         print 'You are good and well! You will be assigned a task Soon.'
                     elif 2.5<spy_rating<=3.5: #conditional statement used for spy rating
                         print 'A long way to go! keep going.'
-                        spy_is_online = True  # using boolean data type
-                        print 'Authentication Completed! Welcome ' + spy_name + ' age: ' + str(
-                            spy_age) + ' and your rating is ' + str(spy_rating)
-                        start_chat(spy_name, spy_age, spy_rating)
                     else: #conditional statement
                         print 'Who hired You? you are not born to be a spy.Go do something else..!!!'
+                    spy_is_online = True  # using boolean data type
+                    print 'Authentication Completed! Welcome ' + spy_name + ' age: ' + str(spy_age) + ' and your rating is ' + str(spy_rating)
+                    start_chat(spy_name, spy_age, spy_rating)
                 elif spy_age > 50: #elif condition statement
                     print 'Sir you have exceeded the spy age limit!'
                 else: #condition statement
