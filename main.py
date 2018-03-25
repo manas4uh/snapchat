@@ -35,6 +35,7 @@ elif spy_exist.upper()=='N':#condition statement
                 spy_age=input('what is your age ') #using input
                 if 50>spy_age>12: #condiotional statement for comparing age limit
                     print 'You are eligible for being a spy with an age: '+str(spy_age)
+                    
                     spy_rating=input('Please enter your rating ') #asking user for rating
                     if spy_rating>5.0: #conditional statement used for spy rating
                         print'Bravo! it looks like you are an expert.'
